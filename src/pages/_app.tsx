@@ -22,7 +22,7 @@ import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 function MyApp({ Component, pageProps }: AppProps) {
   const RPC_ENDPOINT =
     process.env.NEXT_PUBLIC_RPC_ENDPOINT ??
-    "https://mainnet.helius-rpc.com/?api-key=6b52d42b-5d24-4841-a093-02b0d2cc9fc0";
+    "https://api.mainnet-beta.solana.com";
 
   return (
     <ConnectionProvider
